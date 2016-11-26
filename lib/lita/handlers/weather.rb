@@ -46,7 +46,7 @@ module Lita
       )
 
       def find_city(name)
-        file = File.read('cities.json')
+        file = File.read('../cities/cities.json')
         cities = JSON.parse(file)
         cities[name].nil? ? nil : OpenStruct.new(cities[name])
       end
@@ -65,7 +65,6 @@ module Lita
         end
       end
 
-      # gets 10 day forecast  
       def get_forecast_for_week(city)
         week = Hash.new
         open("http://api.wunderground.com/api/#{Lita.config.handlers.weather.api_key}/forecast10day/q/#{city.region}/#{city.name}.json") do |f|
@@ -81,4 +80,3 @@ module Lita
     end
   end
 end
-

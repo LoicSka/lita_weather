@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Loic Shyaka"]
   spec.email         = ["loicshyaka09@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Give your lita bot the ability to fetch weather forecasts.}
+  spec.description   = %q{This gem uses the www.wunderground.com API to get the forecasts you need to sign up for a free api key before you can use the gem.}
+  spec.homepage      = "https://github.com/LoicSka/lita-weather"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
