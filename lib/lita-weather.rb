@@ -1,1 +1,1 @@
-require 'handlers/weather'
+require 'lita/handlers/weather'
