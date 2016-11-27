@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Loic Shyaka"]
   spec.email         = ["loicshyaka09@gmail.com"]
 
-  spec.summary       = %q{Give your lita bot the ability to fetch weather forecasts.}
-  spec.description   = %q{This gem uses the www.wunderground.com API to get the forecasts you need to sign up for a free api key before you can use the gem.}
+  spec.summary       = %q{Give your lita bot the ability to fetch up to 10 days weather forecasts.}
+  spec.description   = %q{Give your lita bot the ability to fetch up to 10 days weather forecasts}
   spec.homepage      = "https://github.com/LoicSka/lita_weather"
   spec.license       = "MIT"
 
