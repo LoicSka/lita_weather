@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'lita/weather/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lita-weather"
+  spec.name          = "lita_weather"
   spec.version       = Lita::Weather::VERSION
   spec.authors       = ["Loic Shyaka"]
   spec.email         = ["loicshyaka09@gmail.com"]
 
   spec.summary       = %q{Give your lita bot the ability to fetch weather forecasts.}
   spec.description   = %q{This gem uses the www.wunderground.com API to get the forecasts you need to sign up for a free api key before you can use the gem.}
-  spec.homepage      = "https://github.com/LoicSka/lita-weather"
+  spec.homepage      = "https://github.com/LoicSka/lita_weather"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
