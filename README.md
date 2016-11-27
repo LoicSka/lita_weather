@@ -20,12 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-config.handlers.weather.default_city = "san francisco"
-config.handlers.weather.api_key = "your_key_here"
+config.handlers.weather.default_city = "san francisco"  
+config.handlers.weather.api_key = "your_key_here"<br />
 
-lita weather today
-lita weather on monday
-lita weather today in Berlin
+lita weather today  
+lita weather on monday  
+lita weather today in Berlin  
 
 
 
